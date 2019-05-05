@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.leorubio.parkingzoneunedl">
+
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".Login"
+
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EscaneoEntrada"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EscaneoEntradaMaestro"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EscaneoSalida"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EscaneoSalidaMaestro"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".EscogerBotones"
+        android:screenOrientation="portrait"/>
+        <activity android:name=".RegistroEntrada"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RegistroSalida"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ScannerEntrada"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ScannerEntradaMaestro"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ScannerSalida"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ScannerSalidaMaestro"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MostrarActivosMaestros"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MostrarActivosAlumnos"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
+    </application>
+
+</manifest>

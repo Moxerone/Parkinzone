@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Login"
+    android:background="#1a1d56"
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="0dp"
+        >
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-193dp"
+        android:background="#1a1d56">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/isma" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="0dp"
+        android:background="#1a1d56"
+
+
+        >
+        <EditText
+            android:id="@+id/editUsuario"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:hint="Usuario"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:textColor="#fbc02d"
+            android:textColorHint="#fbc02d" />
+
+        <EditText
+            android:id="@+id/editContrasena"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editUsuario"
+            android:layout_marginTop="70dp"
+            android:focusable="true"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+
+            android:textColor="#fbc02d"
+            android:textColorHint="#fbc02d" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp"
+            android:background="#fcdc00"
+            android:text="LOGIN"
+            android:textColor="#1c2652" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/unidl" />
+
+
+
+    <!-- <ImageView
+         android:id="@+id/imageView3"
+         android:layout_width="match_parent"
+         android:layout_height="175dp"
+         android:layout_alignParentStart="true"
+         android:layout_below="@+id/imageView"
+
+         &lt;!&ndash;&ndash;&gt;
+         ></ImageView>
+         &lt;!&ndash;android:background="@mipmap/isma" />&ndash;&gt;-->
+
+</RelativeLayout>

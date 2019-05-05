@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "634070257449",
+    "firebase_url": "https://parking-zone-unedl.firebaseio.com",
+    "project_id": "parking-zone-unedl",
+    "storage_bucket": "parking-zone-unedl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634070257449:android:ecd045fcb4019dd7",
+        "android_client_info": {
+          "package_name": "com.example.leorubio.parkingzoneunedl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634070257449-fcveoemdn5f8ggvv4f15i3v02ipbd5e3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.leorubio.parkingzoneunedl",
+            "certificate_hash": "bbde1040542bb93f087b892b7de489b3c11e7ef1"
+          }
+        },
+        {
+          "client_id": "634070257449-amcums6etj4tl0pauo0f8ron8f949bv6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "634070257449-amcums6etj4tl0pauo0f8ron8f949bv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDlYhNEjDTfefRvFKzn0ZZknp2U2amLaM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634070257449-amcums6etj4tl0pauo0f8ron8f949bv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

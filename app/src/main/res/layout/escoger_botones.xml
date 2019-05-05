@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c2652"
+
+    >
+
+
+    <Button
+        android:id="@+id/mostrarActivos2"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/registrar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="56dp"
+        android:background="#fbc02d"
+        android:text="MOSTRAR MAESTROS" />
+
+    <Button
+        android:id="@+id/mostrarActivos"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/registrar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="56dp"
+        android:background="#fbc02d"
+        android:text="MOSTRAR ALUMNOS" />
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="330dp"
+        android:background="#fbc02d"
+        android:text="REGISTRAR ENTRADA" />
+
+    <Button
+        android:id="@+id/escEntrada"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/registrar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="320dp"
+        android:background="#fbc02d"
+        android:text="ENTRADA ALUMNO" />
+
+    <TextView
+        android:id="@+id/textCont"
+        android:layout_width="164dp"
+        android:layout_height="173dp"
+        android:layout_alignEnd="@+id/registrar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="-9dp"
+        android:background="#fbc02d"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textCont2"
+        android:layout_width="164dp"
+        android:layout_height="173dp"
+        android:layout_alignTop="@+id/textCont"
+        android:layout_alignEnd="@+id/escSalida"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-14dp"
+        android:background="#fbc02d"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/escSalida"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/escEntrada"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="24dp"
+        android:background="#fbc02d"
+        android:text="SALIDA ALUMNO" />
+
+    <Button
+        android:id="@+id/regSalida"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/escSalida"
+        android:layout_alignTop="@+id/registrar"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="0dp"
+        android:background="#fbc02d"
+        android:text="REGISTRAR SALIDA" />
+
+    <Button
+        android:id="@+id/salidaM"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textCont2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginBottom="146dp"
+        android:background="#fbc02d"
+        android:text="Salida Maestro" />
+
+    <Button
+        android:id="@+id/entradaM"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/registrar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="146dp"
+        android:background="#fbc02d"
+        android:text="ENTRADA MAESTRO" />
+
+
+</RelativeLayout>
+
+

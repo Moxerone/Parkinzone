@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#1c2652"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#1c2652"
+        android:text="REGISTRO DE PERSONA"
+        android:textAlignment="center"
+        android:textColor="#fbc02d"
+        android:textSize="22dp"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="289dp"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="64dp"
+        android:background="#1c2652">
+
+
+        <TextView
+            android:id="@+id/textNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="12dp"
+            android:text="NOMBRE"
+            android:textColor="#fbc02d"
+            android:textSize="14dp" />/>
+
+        <TextView
+            android:id="@+id/textMotivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textNombre"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="59dp"
+            android:text="MOTIVO VISITA"
+            android:textColor="#fbc02d"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textEntrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editEntrada"
+            android:layout_alignStart="@+id/textNombre"
+            android:text="HORA ENTRADA"
+            android:textColor="#fbc02d"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textSalida"
+            android:layout_width="108dp"
+            android:layout_height="33dp"
+            android:layout_alignStart="@+id/textEntrada"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="54dp"
+            android:text="HORA SALIDA"
+            android:textColor="#fbc02d"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textViewPlacas"
+            android:layout_width="82dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/editMotivo"
+            android:layout_alignStart="@+id/textNombre"
+            android:text="PLACAS"
+
+
+            android:textColor="#fbc02d"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/editNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+
+            android:textColor="#FFFF" />
+
+        <EditText
+            android:id="@+id/editMotivo"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_below="@+id/editNombre"
+            android:layout_alignStart="@+id/editNombre"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#FFFF" />
+
+        <EditText
+            android:id="@+id/editPlacas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editNombre"
+            android:layout_alignTop="@+id/textViewPlacas"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#FFFF" />
+
+        <EditText
+            android:id="@+id/editEntrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editPlacas"
+            android:layout_alignStart="@+id/editNombre"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#FFFF" />
+
+        <EditText
+            android:id="@+id/editSalida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textSalida"
+            android:layout_alignStart="@+id/editNombre"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#FFFF"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginBottom="11dp"
+            android:background="#fbc02d"
+            android:text="GUARDAR"
+            android:textColor="#1c2652" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="169dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="6dp"
+        android:adjustViewBounds="true"
+        android:background="@mipmap/unidl"
+        android:cropToPadding="true" />
+
+    <!--<Button
+        android:id="@+id/tomarfoto"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="189dp"
+        android:background="#fbc02d"
+        android:text="foto"
+        android:textColor="#1c2652" />-->
+
+</RelativeLayout>
